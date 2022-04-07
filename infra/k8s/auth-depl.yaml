@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: chenchengy1y1/auth
+          image: chenchengy1/auth
           env:
             - name: MONGO_URI
               value: 'mongodb://auth-mongo-srv:27017/auth'
